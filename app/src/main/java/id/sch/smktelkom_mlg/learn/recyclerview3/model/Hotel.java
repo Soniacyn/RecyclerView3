@@ -11,7 +11,7 @@ public class Hotel implements Serializable {
     public String foto;
 
 
-    public Hotel(String s, String judul, String deskripsi, String lokasi, String foto) {
+    public Hotel(String judul, String deskripsi, String detail, String lokasi, String foto) {
         this.judul = judul;
         this.deskripsi = deskripsi;
         this.detail = detail;
